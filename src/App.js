@@ -3,39 +3,39 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
-			questionText: 'who is the indian national animal?',
+			questionText: 'where is eiffel tower?',
 			answerOptions: [
-				{ answerText: 'monkey', isCorrect: false },
-				{ answerText: 'tiger', isCorrect: true },
-				{ answerText: 'horse', isCorrect: false },
-				{ answerText: 'elephant', isCorrect: false },
+				{ answerText: 'germany', isCorrect: false },
+				{ answerText: 'singapore', isCorrect: false },
+				{ answerText: 'london', isCorrect: false },
+				{ answerText: 'paris', isCorrect: true },
 			],
 		},
 		{
-			questionText: '1024 kilobytes is equal to?',
+			questionText: 'most populated country?',
 			answerOptions: [
-				{ answerText: '1 TB', isCorrect: false },
-				{ answerText: '1 KB', isCorrect: false },
-				{ answerText: '1 MB', isCorrect: true },
-				{ answerText: '1 GB', isCorrect: false },
+				{ answerText: 'africa', isCorrect: false },
+				{ answerText: 'india', isCorrect: true },
+				{ answerText: 'china', isCorrect: false },
+				{ answerText: 'russia', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'where is burj khalifa?',
+			questionText: 'which is the longest river in india?',
 			answerOptions: [
-				{ answerText: 'seoul', isCorrect: false },
-				{ answerText: 'hanoi', isCorrect: false },
-				{ answerText: 'dubling', isCorrect: false },
-				{ answerText: 'dubai', isCorrect: true },
+				{ answerText: 'ganga', isCorrect: true },
+				{ answerText: 'godavari', isCorrect: false },
+				{ answerText: 'yamuna', isCorrect: false },
+				{ answerText: 'sutlej', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'which space agency 1st go to the mars?',
+			questionText: 'world biggest mountain?',
 			answerOptions: [
-				{ answerText: 'isro', isCorrect: true },
-				{ answerText: 'roscosmos', isCorrect: false },
-				{ answerText: 'space x', isCorrect: false },
-				{ answerText: 'nasa', isCorrect: false },
+				{ answerText: 'k2', isCorrect: false },
+				{ answerText: 'himalays', isCorrect: false },
+				{ answerText: 'everest', isCorrect: true },
+				{ answerText: 'hindu kush', isCorrect: false },
 			],
 		},
 	];	

@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-color: yellow;
+  background-color: rgb(246, 72, 205);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,9 +20,9 @@ body {
 }
 
 .app {
-  background-color: #1c73cf;
-  width: 550px;
-  min-height: 350px;
+  background-color: #1ccf31;
+  width: 450px;
+  min-height: 250px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
@@ -53,7 +53,7 @@ body {
 
 .question-text {
   margin-bottom: 12px;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 .timer-text {
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-  background-color: #51cdd5;
+  background-color: #cad551;
 }
 
 button:focus {
